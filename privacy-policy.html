@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy – Block Puzzle Color: AI Experiment Labs</title>
+    <style>
+        :root {
+            --bg:       #0D1117;
+            --surface:  #141C27;
+            --border:   #2A3F52;
+            --teal:     #00D4C8;
+            --text:     #F0F4F8;
+            --muted:    #8BA8C0;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            line-height: 1.7;
+            padding: 24px 16px 60px;
+        }
+        .container {
+            max-width: 760px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            padding: 48px 0 36px;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 36px;
+        }
+        .logo {
+            font-size: 2.4rem;
+            margin-bottom: 12px;
+        }
+        h1 {
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: var(--teal);
+            margin-bottom: 6px;
+        }
+        .subtitle {
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+        .badge {
+            display: inline-block;
+            margin-top: 14px;
+            background: rgba(0,212,200,0.1);
+            border: 1px solid rgba(0,212,200,0.4);
+            color: var(--teal);
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-size: 0.82rem;
+            font-weight: 600;
+        }
+        section {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 24px 28px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: var(--teal);
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        p { color: var(--text); margin-bottom: 10px; }
+        p:last-child { margin-bottom: 0; }
+        .highlight {
+            background: rgba(0,212,200,0.08);
+            border-left: 3px solid var(--teal);
+            padding: 12px 16px;
+            border-radius: 0 8px 8px 0;
+            color: var(--muted);
+            font-size: 0.92rem;
+            margin-top: 10px;
+        }
+        a { color: var(--teal); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        footer {
+            text-align: center;
+            color: var(--muted);
+            font-size: 0.82rem;
+            margin-top: 48px;
+        }
+        .lang-switch {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 32px;
+        }
+        .lang-btn {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            color: var(--muted);
+            padding: 6px 18px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.88rem;
+            transition: all 0.2s;
+        }
+        .lang-btn.active, .lang-btn:hover {
+            border-color: var(--teal);
+            color: var(--teal);
+        }
+        [data-lang] { display: none; }
+        [data-lang].visible { display: block; }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <header>
+        <div class="logo">🧩</div>
+        <h1>Block Puzzle Color</h1>
+        <p class="subtitle">AI Experiment Labs</p>
+        <span class="badge">Privacy Policy</span>
+    </header>
+
+    <div class="lang-switch">
+        <button class="lang-btn active" onclick="setLang('hu')">🇭🇺 Magyar</button>
+        <button class="lang-btn"        onclick="setLang('en')">🇬🇧 English</button>
+    </div>
+
+    <!-- ======================== MAGYAR ======================== -->
+    <div data-lang="hu" class="visible">
+
+        <section>
+            <h2>📋 Adatvédelmi Nyilatkozat</h2>
+            <p>Utolsó frissítés: <strong>2026. május 10.</strong></p>
+            <p>Az <strong>AI Experiment Labs</strong> fejlesztette a <em>Block Puzzle Color</em> alkalmazást ingyenes alkalmazásként. Ez az oldal tájékoztat az adatkezelési elvekről.</p>
+            <div class="highlight">
+                ✅ Ez az alkalmazás <strong>semmilyen személyes adatot nem gyűjt</strong>, nem tárol és nem oszt meg.
+            </div>
+        </section>
+
+        <section>
+            <h2>💾 Helyi adattárolás</h2>
+            <p>Az alkalmazás kizárólag az eszközödön tárolja a következő adatokat az Android DataStore rendszer segítségével:</p>
+            <p>– Játékállás (pontszám, szint, pálya állapota)<br>
+               – Rekordok és statisztikák<br>
+               – Beállítások (hang, rezgés, nyelv)<br>
+               – Napi bónusz dátuma</p>
+            <p>Ezek az adatok <strong>soha nem kerülnek ki az eszközödről</strong>, nem kerülnek szerverre és harmadik félnek sem adjuk át.</p>
+        </section>
+
+        <section>
+            <h2>🌐 Harmadik fél szolgáltatások</h2>
+            <p>Az alkalmazás <strong>nem használ</strong>:</p>
+            <p>– Analitikai eszközöket (pl. Firebase, Google Analytics)<br>
+               – Hirdetési SDK-kat<br>
+               – Felhasználói nyomkövetést<br>
+               – Internetes kapcsolatot</p>
+            <div class="highlight">
+                Az alkalmazás teljesen offline működik.
+            </div>
+        </section>
+
+        <section>
+            <h2>👶 Gyermekek adatvédelme</h2>
+            <p>Az alkalmazás minden korosztály számára megfelelő. Nem gyűjtünk adatokat 13 év alatti gyermekektől sem szándékosan, sem véletlenül.</p>
+        </section>
+
+        <section>
+            <h2>✏️ Változások</h2>
+            <p>Fenntartjuk a jogot, hogy ezt az adatvédelmi nyilatkozatot frissítsük. A változások ezen az oldalon jelennek meg.</p>
+        </section>
+
+        <section>
+            <h2>📬 Kapcsolat</h2>
+            <p>Ha kérdésed van, vedd fel velünk a kapcsolatot:</p>
+            <p><a href="mailto:aiexperimentlabs@gmail.com">aiexperimentlabs@gmail.com</a></p>
+        </section>
+
+    </div>
+
+    <!-- ======================== ENGLISH ======================== -->
+    <div data-lang="en">
+
+        <section>
+            <h2>📋 Privacy Policy</h2>
+            <p>Last updated: <strong>May 10, 2026</strong></p>
+            <p><strong>AI Experiment Labs</strong> built the <em>Block Puzzle Color</em> app as a free app. This page informs you about our data handling practices.</p>
+            <div class="highlight">
+                ✅ This app <strong>does not collect, store, or share any personal data</strong>.
+            </div>
+        </section>
+
+        <section>
+            <h2>💾 Local Storage</h2>
+            <p>The app stores the following data locally on your device using Android DataStore:</p>
+            <p>– Game progress (score, level, board state)<br>
+               – Records and statistics<br>
+               – Settings (sound, haptics, language)<br>
+               – Daily bonus date</p>
+            <p>This data <strong>never leaves your device</strong>, is not sent to any server, and is not shared with any third party.</p>
+        </section>
+
+        <section>
+            <h2>🌐 Third-party Services</h2>
+            <p>This app does <strong>not use</strong>:</p>
+            <p>– Analytics tools (e.g. Firebase, Google Analytics)<br>
+               – Advertising SDKs<br>
+               – User tracking<br>
+               – Internet connection</p>
+            <div class="highlight">
+                The app works entirely offline.
+            </div>
+        </section>
+
+        <section>
+            <h2>👶 Children's Privacy</h2>
+            <p>This app is suitable for all ages. We do not knowingly collect data from children under 13.</p>
+        </section>
+
+        <section>
+            <h2>✏️ Changes</h2>
+            <p>We reserve the right to update this privacy policy. Changes will be posted on this page.</p>
+        </section>
+
+        <section>
+            <h2>📬 Contact</h2>
+            <p>If you have questions, contact us at:</p>
+            <p><a href="mailto:aiexperimentlabs@gmail.com">aiexperimentlabs@gmail.com</a></p>
+        </section>
+
+    </div>
+
+    <footer>
+        &copy; 2026 AI Experiment Labs &nbsp;·&nbsp;
+        Block Puzzle Color: AI Experiment Labs
+    </footer>
+</div>
+
+<script>
+function setLang(lang) {
+    document.querySelectorAll('[data-lang]').forEach(el => {
+        el.classList.toggle('visible', el.dataset.lang === lang);
+    });
+    document.querySelectorAll('.lang-btn').forEach((btn, i) => {
+        btn.classList.toggle('active', (i === 0 && lang === 'hu') || (i === 1 && lang === 'en'));
+    });
+}
+</script>
+</body>
+</html>
