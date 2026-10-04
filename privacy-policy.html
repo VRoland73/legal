@@ -115,142 +115,30 @@
         [data-lang].visible { display: block; }
     </style>
 </head>
-<body>
-<div class="container">
-
-    <header>
-        <div class="logo">🧩</div>
-        <h1>Block Puzzle Color</h1>
-        <p class="subtitle">AI Experiment Labs</p>
-        <span class="badge">Privacy Policy</span>
-    </header>
-
-    <div class="lang-switch">
-        <button class="lang-btn active" onclick="setLang('hu')">🇭🇺 Magyar</button>
-        <button class="lang-btn"        onclick="setLang('en')">🇬🇧 English</button>
-    </div>
-
-    <!-- ======================== MAGYAR ======================== -->
-    <div data-lang="hu" class="visible">
-
-        <section>
-            <h2>📋 Adatvédelmi Nyilatkozat</h2>
-            <p>Utolsó frissítés: <strong>2026. május 11.</strong></p>
-            <p>Az <strong>AI Experiment Labs</strong> fejlesztette a <em>Block Puzzle Color</em> alkalmazást ingyenes alkalmazásként. Ez az oldal tájékoztat az adatkezelési elvekről.</p>
-            <div class="highlight">
-                ✅ Ez az alkalmazás <strong>semmilyen személyes adatot nem gyűjt</strong>, nem tárol és nem oszt meg.
-            </div>
-        </section>
-
-        <section>
-            <h2>💾 Helyi adattárolás</h2>
-            <p>Az alkalmazás kizárólag az eszközödön tárolja a következő adatokat az Android DataStore rendszer segítségével:</p>
-            <p>– Játékállás (pontszám, szint, pálya állapota)<br>
-               – Rekordok és statisztikák<br>
-               – Beállítások (hang, rezgés, nyelv)<br>
-               – Napi bónusz dátuma</p>
-            <p>Ezek az adatok <strong>soha nem kerülnek ki az eszközödről</strong>, nem kerülnek szerverre és harmadik félnek sem adjuk át.</p>
-        </section>
-
-        <section>
-            <h2>🌐 Harmadik fél szolgáltatások</h2>
-            <p>Az alkalmazás <strong>nem használ</strong>:</p>
-            <p>– Hirdetési SDK-kat<br>
-               – Felhasználói nyomkövetést<br>
-               – Google Analytics-et</p>
-            <p>Az alkalmazás <strong>Firebase Crashlytics</strong> szolgáltatást használ (Google). Ez kizárólag anonim összeomlás-jelentéseket (crash report) gyűjt abból a célból, hogy a fejlesztő javítani tudja az alkalmazás stabilitását. A Crashlytics <strong>nem gyűjt személyes adatot</strong>, nem tartalmaz reklámazonosítót, és az összeomlás naplók automatikusan törlődnek 90 nap után.</p>
-            <p>Bővebb információ: <a href="https://firebase.google.com/support/privacy" target="_blank">firebase.google.com/support/privacy</a></p>
-            <div class="highlight">
-                A játékmenet teljesen offline működik. Az internetkapcsolat kizárólag az esetleges összeomlás-jelentések feltöltéséhez szükséges.
-            </div>
-        </section>
-
-        <section>
-            <h2>👶 Gyermekek adatvédelme</h2>
-            <p>Az alkalmazás minden korosztály számára megfelelő. Nem gyűjtünk adatokat 13 év alatti gyermekektől sem szándékosan, sem véletlenül.</p>
-        </section>
-
-        <section>
-            <h2>✏️ Változások</h2>
-            <p>Fenntartjuk a jogot, hogy ezt az adatvédelmi nyilatkozatot frissítsük. A változások ezen az oldalon jelennek meg.</p>
-        </section>
-
-        <section>
-            <h2>📬 Kapcsolat</h2>
-            <p>Ha kérdésed van, vedd fel velünk a kapcsolatot:</p>
-            <p><a href="mailto:aikiserletimuhely@gmail.com">aikiserletimuhely@gmail.com</a></p>
-        </section>
-
-    </div>
-
-    <!-- ======================== ENGLISH ======================== -->
-    <div data-lang="en">
-
-        <section>
-            <h2>📋 Privacy Policy</h2>
-            <p>Last updated: <strong>May 11, 2026</strong></p>
-            <p><strong>AI Experiment Labs</strong> built the <em>Block Puzzle Color</em> app as a free app. This page informs you about our data handling practices.</p>
-            <div class="highlight">
-                ✅ This app <strong>does not collect, store, or share any personal data</strong>.
-            </div>
-        </section>
-
-        <section>
-            <h2>💾 Local Storage</h2>
-            <p>The app stores the following data locally on your device using Android DataStore:</p>
-            <p>– Game progress (score, level, board state)<br>
-               – Records and statistics<br>
-               – Settings (sound, haptics, language)<br>
-               – Daily bonus date</p>
-            <p>This data <strong>never leaves your device</strong>, is not sent to any server, and is not shared with any third party.</p>
-        </section>
-
-        <section>
-            <h2>🌐 Third-party Services</h2>
-            <p>This app does <strong>not use</strong>:</p>
-            <p>– Advertising SDKs<br>
-               – User tracking<br>
-               – Google Analytics</p>
-            <p>This app uses <strong>Firebase Crashlytics</strong> (by Google) solely to collect anonymous crash reports that help the developer improve app stability. Crashlytics does <strong>not collect personal data</strong>, does not include advertising identifiers, and crash logs are automatically deleted after 90 days.</p>
-            <p>More info: <a href="https://firebase.google.com/support/privacy" target="_blank">firebase.google.com/support/privacy</a></p>
-            <div class="highlight">
-                Gameplay works entirely offline. Internet is only used to upload crash reports if the app crashes.
-            </div>
-        </section>
-
-        <section>
-            <h2>👶 Children's Privacy</h2>
-            <p>This app is suitable for all ages. We do not knowingly collect data from children under 13.</p>
-        </section>
-
-        <section>
-            <h2>✏️ Changes</h2>
-            <p>We reserve the right to update this privacy policy. Changes will be posted on this page.</p>
-        </section>
-
-        <section>
-            <h2>📬 Contact</h2>
-            <p>If you have questions, contact us at:</p>
-            <p><a href="mailto:aikiserletimuhely@gmail.com">aikiserletimuhely@gmail.com</a></p>
-        </section>
-
-    </div>
-
-    <footer>
-        &copy; 2026 AI Experiment Labs &nbsp;·&nbsp;
-        Block Puzzle Color: AI Experiment Labs
-    </footer>
+<body><div class="container">
+<header><div class="logo">🧩</div><h1>Block Puzzle Color</h1><p class="subtitle">AI Experiment Labs · Android &amp; LG webOS</p><span class="badge">Adatvédelmi tájékoztató · Privacy Policy</span></header>
+<nav class="lang-switch" aria-label="Language"><button class="lang-btn active" onclick="setLang('hu')">Magyar</button><button class="lang-btn" onclick="setLang('en')">English</button></nav>
+<div data-lang="hu" class="visible">
+<section><h2>Adatkezelés és kapcsolat</h2><p>Utolsó frissítés: <strong>2026. október 4.</strong></p><p>Ez a tájékoztató az AI Experiment Labs által fejlesztett Block Puzzle Color Android- és LG webOS-alkalmazására vonatkozik. Adatkezelési kérdés, hozzáférési vagy törlési kérelem: <a href="mailto:aikiserletimuhely@gmail.com">aikiserletimuhely@gmail.com</a>.</p><p>A játék offline használható. A felhős mentés opcionális. Az Android technikai hibajelentéseket küldhet a Firebase Crashlytics szolgáltatásnak; az alábbiakban részletezzük az adatokat és a szolgáltatókat.</p></section>
+<section><h2>Helyi játékadatok</h2><p>Az eszköz tárolja a játékállást, táblákat és alakzatokat, pontszámot, rekordokat, kombókat, szintet, életeket, segítségeket, napi sorozatot és beállításokat. Androidon DataStore és helyi alkalmazásfájlok, webOS-en az alkalmazás helyi tárhelye használatos.</p><p>A helyi adatok az alkalmazás tárhelyének törlésével vagy eltávolításával törölhetők. Az operációs rendszer külön eszközmentése a rendszerbeállítások szerint működhet. A felhőbe már feltöltött fájlok ettől nem törlődnek.</p></section>
+<section><h2>Fájlválasztós mentés Androidon</h2><p>A kézi export/import és a beállítható automatikus fájlmentés az általad kiválasztott dokumentumot használja. Ez lehet helyi fájl vagy egy dokumentumszolgáltató, például a Google Drive által biztosított fájl. Az automatikus fájlmentés a kijelölt dokumentumot frissíti; nem azonos a telefon–TV Drive-szinkronnal.</p></section>
+<section><h2>Opcionális közös Google Drive-mentés</h2><p>A bejelentkezést és a jogosultságot a Google kezeli; az alkalmazás nem kapja meg a Google-jelszavadat. A <code>drive.file</code> jogosultság az alkalmazással létrehozott vagy külön kiválasztott fájlok kezelését engedi, nem a teljes Drive tartalmának elérését.</p><p>A kézi szinkron a játékadatokat JSON-pillanatképekben a saját Google Drive-odba menti. A fájl neve <code>block-puzzle-color-&lt;verzióazonosító&gt;.json</code>. Tartalmazza a játékállásokat, rekordokat, statisztikákat és beállításokat, valamint egy véletlen mentésazonosítót, az előző mentések azonosítóit és az Android/TV platformjelölést. Bejelentkezési token és jelszó nem része a játékmentésnek.</p><p>Telefonon és tévén ugyanazzal a Google-fiókkal lehet ugyanazt a mentést használni. Más Google-fiókok mentései elkülönülnek. Eszközváltás előtt és folytatás előtt kézzel kell szinkronizálni. Párhuzamos módosításnál te választod ki a megtartandó állást; a korábbi pillanatképek megmaradnak. Felhős visszaállítás előtt helyi helyreállítási másolat készül.</p><p>A Google API-kból kapott adatokat kizárólag a kért mentés és visszaállítás biztosítására használjuk, nem reklámozásra, értékesítésre vagy általános AI-modellek tanítására. A Google-adatok használata és továbbítása megfelel a <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a> követelményeinek, beleértve a Limited Use előírásokat.</p></section>
+<section><h2>Tévés bejelentkezés és Cloudflare</h2><p>A TV-n megjelenő kódot a Google oldalán, például telefonon adod meg. A Cloudflare Workers közvetítő a Google-eszközkód, hozzáférési token és frissítési token cseréjét végzi. A játékmentések közvetlenül a Google Drive-ba kerülnek, nem a Cloudflare közvetítő tárhelyére.</p><p>A TV frissítési tokent tárol helyben a kapcsolat megújításához. A közvetítő nem vezet saját felhasználói adatbázist, és a programkód nem naplózza a tokeneket vagy a kérések tartalmát. A Cloudflare a hálózati kérések kiszolgálása és korlátozása során IP-címet és technikai kapcsolati adatokat kezelhet. Szolgáltatói információ: <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare adatvédelem</a>.</p></section>
+<section><h2>Hibajelentések Androidon</h2><p>Az Android-változat Firebase Crashlytics szolgáltatást használ a stabilitás javítására. Ez összeomlási veremnyomokat, alkalmazás- és eszközadatokat, valamint Crashlytics telepítési azonosítókat és Firebase telepítési azonosítót kezelhet. Ezek technikai, potenciálisan azonosításra alkalmas adatok; a jelentéseket nem nevezzük teljesen anonimnak. A webOS-változat nem tartalmazza az Android Crashlytics SDK-t.</p><p>A Google tájékoztatója szerint a Crashlytics a veremnyomokat és kapcsolódó azonosítókat 90 napig őrzi, majd megkezdi eltávolításukat az élő és biztonsági mentési rendszerekből. A projekt nem tartalmaz hirdetési SDK-t vagy Google Analytics SDK-t. Részletek: <a href="https://firebase.google.com/support/privacy">Firebase adatvédelem</a>.</p></section>
+<section><h2>Kapcsolat bontása, megőrzés és törlés</h2><p>A Google Drive menüben a kapcsolat bontása a helyi szinkronkapcsolatot törli; nem törli a Drive-ban lévő mentéseket, és önmagában nem vonja vissza a Google-fiókban megadott engedélyt. A hozzáférést a <a href="https://myaccount.google.com/connections">Google-fiókod kapcsolatai</a> között vonhatod vissza; ez az ugyanahhoz az alkalmazáshoz tartozó telefonos és tévés kapcsolatot is érintheti.</p><p>A felhőmentések megmaradnak, amíg a saját Drive-odban törlöd őket. Keresd a <code>block-puzzle-color-</code> kezdetű JSON-fájlokat. A végleges törléshez a Drive kukáját is kezelned kell a Google szabályai szerint. Automatikus régi-verzió törlés jelenleg nincs. Az exportált dokumentumot a kiválasztott szolgáltatónál külön törölheted.</p><p>Az adatkezeléssel kapcsolatos hozzáférési, javítási, törlési vagy más kéréseddel a fenti kapcsolati címen kereshetsz minket. A saját Drive-fájljaidat te kezeled; a fejlesztőnek nincs adminisztrátori hozzáférése hozzájuk.</p></section>
+<section><h2>Szolgáltatók, gyermekek és változások</h2><p>A Google Drive, a Google-bejelentkezés, a Firebase Crashlytics és a Cloudflare a saját szolgáltatási és adatvédelmi feltételei szerint is kezel technikai adatokat; feldolgozás az országodon kívül is történhet. <a href="https://policies.google.com/privacy">Google adatvédelem</a>. A nyilvános tájékoztató GitHub Pages-en érhető el; <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub adatvédelem</a>.</p><p>A játék nem kér életkort, nevet vagy kapcsolatlistát. Gyermekek a Google-fiók és felhős mentés használatához szükséges szülői vagy gondviselői engedéllyel, illetve a szolgáltató életkori szabályai szerint használhatják ezeket a funkciókat.</p><p>A tájékoztató frissítései ezen az oldalon, a fenti dátummal jelennek meg.</p></section>
 </div>
-
-<script>
-function setLang(lang) {
-    document.querySelectorAll('[data-lang]').forEach(el => {
-        el.classList.toggle('visible', el.dataset.lang === lang);
-    });
-    document.querySelectorAll('.lang-btn').forEach((btn, i) => {
-        btn.classList.toggle('active', (i === 0 && lang === 'hu') || (i === 1 && lang === 'en'));
-    });
-}
-</script>
-</body>
-</html>
+<div data-lang="en">
+<section><h2>Data handling and contact</h2><p>Last updated: <strong>October 4, 2026</strong>.</p><p>This policy covers the Block Puzzle Color Android and LG webOS apps developed by AI Experiment Labs. For privacy questions, access or deletion requests, contact <a href="mailto:aikiserletimuhely@gmail.com">aikiserletimuhely@gmail.com</a>.</p><p>The game works offline. Cloud backup is optional. Android may send technical crash reports to Firebase Crashlytics; the data and providers are described below.</p></section>
+<section><h2>Local game data</h2><p>Your device stores game progress, boards and shapes, scores, records, combos, levels, lives, power-ups, daily streaks and settings. Android uses DataStore and app files; webOS uses local app storage.</p><p>Clear the app's storage or uninstall it to remove local data. Operating-system device backups may apply according to your system settings. Removing the app does not delete files already uploaded to cloud storage.</p></section>
+<section><h2>Android document backups</h2><p>Manual export/import and configurable automatic document backup use a document you select. This can be a local file or a document-provider file, including Google Drive. Automatic document backup updates the selected document; it is separate from phone–TV Drive sync.</p></section>
+<section><h2>Optional shared Google Drive saves</h2><p>Google handles sign-in and permission; the app never receives your Google password. The <code>drive.file</code> permission allows handling files created with or explicitly selected for the app, rather than accessing your entire Drive.</p><p>Manual sync saves game data as JSON snapshots in your own Google Drive, named <code>block-puzzle-color-&lt;revision-id&gt;.json</code>. Snapshots include game progress, records, statistics and settings, a random revision ID, parent revision IDs and an Android/TV platform label. Game backups do not contain sign-in tokens or passwords.</p><p>Use the same Google account on phone and TV to share progress. Different accounts have separate saves. Sync manually before switching devices and before continuing. If both devices changed progress, you choose which state to keep; earlier snapshots remain. Cloud restoration creates a local recovery copy first.</p><p>Google API data is used only to provide the requested backup and restoration, not for advertising, sale or training general AI models. Our use and transfer of Google API data follows the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements.</p></section>
+<section><h2>TV sign-in and Cloudflare</h2><p>Enter the code shown on TV on Google's website, for example on your phone. A Cloudflare Workers broker exchanges Google device codes, access tokens and refresh tokens. Game snapshots go directly to Google Drive, not to broker storage.</p><p>The TV stores a refresh token locally to renew access. The broker has no user database and its application code does not log tokens or request bodies. Cloudflare may process IP addresses and technical connection data to serve and rate-limit requests. See the <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare privacy policy</a>.</p></section>
+<section><h2>Android crash reports</h2><p>The Android app uses Firebase Crashlytics to improve stability. This may process crash stack traces, app and device information, Crashlytics installation UUIDs and Firebase installation IDs. These technical identifiers may be identifying; we do not describe reports as fully anonymous. The webOS app does not contain the Android Crashlytics SDK.</p><p>Google states that Crashlytics retains crash traces and related identifiers for 90 days before beginning removal from live and backup systems. The project does not include advertising or Google Analytics SDKs. See <a href="https://firebase.google.com/support/privacy">Firebase privacy information</a>.</p></section>
+<section><h2>Disconnecting, retention and deletion</h2><p>Disconnecting in the Drive menu clears the device-local sync connection. It does not delete Drive snapshots or itself revoke Google account permission. Revoke access through <a href="https://myaccount.google.com/connections">Google account connections</a>; this may affect both phone and TV connections belonging to this application.</p><p>Cloud snapshots remain until you delete them from your Drive. Search for JSON files beginning with <code>block-puzzle-color-</code>. Permanent deletion also requires managing Drive Trash according to Google's rules. Old snapshots are not automatically deleted. Exported documents must be deleted separately with the provider you selected.</p><p>Contact us at the address above for access, correction, deletion or other privacy requests. You control your own Drive files; the developer has no administrative access to them.</p></section>
+<section><h2>Providers, children and changes</h2><p>Google Drive, Google sign-in, Firebase Crashlytics and Cloudflare also process technical data under their own service and privacy terms; processing may occur outside your country. See <a href="https://policies.google.com/privacy">Google privacy</a>. This public policy is hosted on GitHub Pages; see <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub privacy</a>.</p><p>The game does not ask for age, name or contact lists. Children should use Google accounts and cloud backup with required parent/guardian permission and according to the provider's age rules.</p><p>Changes to this policy are published on this page with the updated date.</p></section>
+</div>
+<footer><a href="index.html">Block Puzzle Color · AI Experiment Labs</a></footer>
+</div><script>
+function setLang(lang) { document.documentElement.lang = lang; document.querySelectorAll('[data-lang]').forEach(el => el.classList.toggle('visible', el.dataset.lang === lang)); document.querySelectorAll('.lang-btn').forEach((btn,i) => btn.classList.toggle('active', (i===0 && lang==='hu') || (i===1 && lang==='en'))); }
+</script></body></html>
